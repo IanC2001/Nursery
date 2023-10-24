@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: none;
+}
+
+@font-face {
+    font-family: 'fuente';
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit:wght@200&family=Varela+Round&display=swap');
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+img{
+    border-radius: 10px;
+}
+
+.logo{
+    width: 170px;
+    max-width: 170px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ul{
+    display: flex;
+    gap: 25px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.li{
+    list-style: none;
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+
+a:hover{
+    color: rgb(1, 105, 1); 
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+.main{
+    margin: 15px;
+}
+
+.h1Main{
+    margin-top: 110px;
+}
+.pMain{
+    margin-top: 20px;
+   font-size: 18px;
+}
+
+.contentFlex{
+    display: flex;
+}
+
+.primerPantalla{
+    background-color: #005300ba;
+    width:1778.5px;
+    border-radius:10px 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    color: #fff;
+    font-weight: normal;
+    
+}
+
+.btnMain{
+    border-radius:20px;
+    width: 190px;
+    height: 60px;
+    border-style: none;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 18px;
+    position: relative;
+    right: 500px;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1000ms ease-in-out;
+}
+
+.btnMain:hover{
+    cursor: pointer;
+    border-radius:20px;
+    transform: scale(1.1);
+    transition: 300ms ease-in-out;
+}
+
+aside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.hAside{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom:15px ;
+    font-size: 40px;
+}
+
+
+.line{
+    border-bottom: 3px solid #005300ba;
+    text-align: center; 
+    display: inline; 
+}
+
+.imgAside{
+    width: 600px;
+    margin: 20px;
+    
+}
+
+.pWrap{
+    padding: 15px;
+    line-height: 20px;
+    width: 400px;
+}
+
+.flexPrices{
+    position: relative;
+    bottom: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 45px;
+}
+.cards{
+    border: 2px solid rgb(106, 106, 106);
+    border-radius: 20px;
+    padding: 20px;
+    height: 100%;
+    text-align: center;
+    color:#005300ba;
+    margin: 20px;
+   
+}
+
+.pCards{
+    font-size: 23px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.h3Cards{
+    font-size: 36px;
+    padding: 10px;
+    font-weight: bolder;
+    
+}
+
+.divisor{
+    border-bottom: 2px solid #3a3c3a65;
+    margin: 40px;
+}
+
+.check{ 
+    padding: 20px;
+}
+
+.displayCheck{
+    display:flex;
+    padding: 20px;
+}
+
+.ulPrice{
+    align-items: baseline;
+    flex-direction: column;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    gap: 45px;
+}
+
+.liPrice{
+    font-size: 20px;
+    text-align: left;
+    margin: -7px;
+}
+
+.hClientes{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+
+.divContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+   
+.imgCircle{
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.imgCircleDos{
+    border-radius: none;
+    width: auto;
+}
+
+.imgPosition{
+    position: relative;
+    left: 250px;
+    margin-top: 68px;
+}
+
+.imgTamano{
+    width: 700px;
+    height: 550px;
+}
+
+.flexDiv{
+    display: flex;
+    margin: 50px;
+}
+
+.clientH{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+}
+h4{
+    padding: 5px;
+    font-size: 22px;
+}
+
+h5{
+    padding: 10px;
+    color: rgb(97, 97, 97);
+}
+
+.divUno{
+        width: 951.3px;
+}
+
+.pDiv{
+    text-align: justify;
+}
+
+.divDos{
+    width: 951.3px;
+    text-align: center;
+}
+
+
+
+#contacto{
+    text-align: center;
+    margin: 20px;
+    padding-top: 47px;
+    font-size: 40px;
+}
+
+.pContact{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    padding: 5px;
+    margin: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+input{
+    width: 500px;
+    height: 50px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.submit{
+    margin: 25px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.formBg{
+    background-image: url(../imgs/bg/campo-parque.jpg);
+    background-size: cover;
+}
+
+.footer{
+    background-color: black;
+    color:#fff;
+    padding: 5px;
+    text-align: center;
+}
+
